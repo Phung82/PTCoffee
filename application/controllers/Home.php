@@ -12,7 +12,6 @@ class Home extends MY_Controller {
 		$this->data['slider']=$slider;
 
 		
-		
 		$this->load->model('product_model');
 		$input = array();
 		$input['order'] = array('id', 'DESC');

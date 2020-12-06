@@ -1,7 +1,7 @@
 var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
 	
 	var lineChartData = {
-			labels : ["January","February","March","April","May","June","July"],
+			labels : ["June","July","August","September","October","November","December"],
 			datasets : [
 				{
 					label: "My First dataset",
@@ -11,7 +11,7 @@ var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
 					pointStrokeColor : "#fff",
 					pointHighlightFill : "#fff",
 					pointHighlightStroke : "rgba(220,220,220,1)",
-					data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
+					data : [80,689,658,802,606,590,470]
 				},
 				{
 					label: "My Second dataset",
@@ -21,14 +21,14 @@ var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
 					pointStrokeColor : "#fff",
 					pointHighlightFill : "#fff",
 					pointHighlightStroke : "rgba(48, 164, 255, 1)",
-					data : [randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor(),randomScalingFactor()]
+					data : [100,489,728,990,1726,1080,randomScalingFactor()]
 				}
 			]
 
 		}
 		
 	var barChartData = {
-			labels : ["January","February","March","April","May","June","July"],
+			labels : ["June","July","August","September","October","November","December"],
 			datasets : [
 				{
 					fillColor : "rgba(220,220,220,0.5)",

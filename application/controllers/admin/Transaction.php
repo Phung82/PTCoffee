@@ -37,7 +37,7 @@ class Transaction extends MY_Controller {
 		
 		$input['limit'] = array($config['per_page'],$segment);
 
-		$input['order'] = array('id' , 'ASC');
+		$input['order'] = array('id' , 'DESC');
 		$transaction = $this->transaction_model->get_list($input);
 		$this->data['transaction'] = $transaction;
 

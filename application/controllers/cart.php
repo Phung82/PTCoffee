@@ -42,7 +42,7 @@ class Cart extends MY_Controller {
 		$data['name'] = $product->name;
 		$data['image_link'] = $product->image_link;
 		$this->cart->insert($data);
-		redirect(base_url('cart'));
+		redirect(base_url('Home'));
 	}
 	public function update()
 	{

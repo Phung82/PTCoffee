@@ -21,6 +21,11 @@ class Admin extends MY_Controller {
 
 		$admin = $this->admin_model->get_list();
 		$this->data['admin']= $admin;
+		
+		//-----------------
+
+		
+		//-----------------
 
 		$this->data['temp']='admin/admin/index.php';
 		$this->load->view('admin/main',$this->data);
@@ -66,7 +71,8 @@ class Admin extends MY_Controller {
 			$this->session->set_flashdata('message_fail', 'Thành viên không tồn tại');
 			redirect(admin_url('admin'));
 		}
-		//$this->data['admin'] = $admin;
+		//đã mở &this -> data
+		$this->data['admin'] = $admin;
 		if ($this->input->post()) {
 			$this->form_validation->set_rules('name','Họ tên','required');
 			$this->form_validation->set_rules('email','Tên đăng nhập','valid_email|required');

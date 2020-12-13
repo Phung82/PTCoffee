@@ -26,13 +26,12 @@
  * OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
  * THE SOFTWARE.
  *
- * @package	CodeIgniter
- * @author	EllisLab Dev Team
- * @copyright	Copyright (c) 2008 - 2014, EllisLab, Inc. (https://ellislab.com/)
- * @copyright	Copyright (c) 2014 - 2017, British Columbia Institute of Technology (http://bcit.ca/)
- * @license	http://opensource.org/licenses/MIT	MIT License
- * @link	https://codeigniter.com
- * @since	Version 1.0.0
+ * @package    CodeIgniter
+ * @author     CodeIgniter Dev Team
+ * @copyright  2019-2020 CodeIgniter Foundation
+ * @license    https://opensource.org/licenses/MIT	MIT License
+ * @link       https://codeigniter.com
+ * @since      Version 4.0.0
  * @filesource
  */
 
@@ -54,6 +53,28 @@
  * NOTE: If you change these, also change the error_reporting() code below
  */
 	define('ENVIRONMENT', isset($_SERVER['CI_ENV']) ? $_SERVER['CI_ENV'] : 'development');
+
+
+/**
+TEst cout
+$CountFile = "index.log";
+$CF = fopen ($CountFile, "r");
+$Views = fread ($CF, filesize ($CountFile));
+fclose ($CF);
+$Views++; 
+$CF = fopen ($CountFile, "w");
+fwrite ($CF, $Views); 
+fclose ($CF); 
+*/
+ 
+$CountFile = "index.log";
+$CF = fopen ($CountFile, "r");
+$Views = fread ($CF, filesize ($CountFile));
+fclose ($CF);
+$Views++; 
+$CF = fopen ($CountFile, "w");
+fwrite ($CF, $Views); 
+fclose ($CF); 
 
 /*
  *---------------------------------------------------------------

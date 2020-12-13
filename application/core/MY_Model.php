@@ -164,9 +164,20 @@ class MY_Model extends CI_Model {
         
         return $query->num_rows();
     }
-    
+
+
+    function get_sum_between()
+    {
+        $this->db->select('sum(amount)');
+        $this->db->from('transaction');
+        $this->db->where('status', 1);
+        $this->db->where('amount >=', 100000);
+        $query = $this->db->get();
+        return $query->result();
+    }
+
     /**
-     * Lay tong so
+     * Lay tong so don hang
      * $field: cot muon tinh tong
      */
     function get_sum($field, $where = array())

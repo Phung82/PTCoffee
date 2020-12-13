@@ -28,7 +28,7 @@
 					<label class="col-sm-5 control-label" for="formGroupInputSmall">Giá từ:</label>
 					<div class="col-sm-7" style="padding-left: 0px">
 				    	<select class="form-control" name="price_from">
-				    	<?php for ($i=0; $i < 1400000; $i = $i + 100000) { ?>
+				    	<?php for ($i=0; $i < 150000; $i = $i + 10000) { ?>
 				    		<option value="<?php echo $i ?>" <?php if($i==$price_from) echo 'selected'; ?>><?php echo number_format($i); ?> VNĐ</option>
 				    	<?php } ?>
 						</select>
@@ -38,7 +38,7 @@
 					<label class="col-sm-5 control-label" for="formGroupInputSmall">đến:</label>
 					<div class="col-sm-7" style="padding-left: 0px">
 				    	<select class="form-control" name="price_to">
-				    	<?php for ($i=100000; $i < 1500000; $i = $i + 100000) { ?>
+				    	<?php for ($i=10000; $i < 150000; $i = $i + 10000) { ?>
 				    		<option value="<?php echo $i ?>" <?php if($i==$price_to) echo 'selected'; ?>><?php echo number_format($i); ?> VNĐ</option>
 				    	<?php } ?>
 						</select>

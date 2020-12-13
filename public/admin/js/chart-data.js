@@ -21,14 +21,14 @@ var randomScalingFactor = function(){ return Math.round(Math.random()*1000)};
 					pointStrokeColor : "#fff",
 					pointHighlightFill : "#fff",
 					pointHighlightStroke : "rgba(48, 164, 255, 1)",
-					data : [100,489,728,990,1726,1080,randomScalingFactor()]
+					data : [100,489,728,990,1726,1080,randomScalingFactor(8)]
 				}
 			]
 
 		}
 		
 	var barChartData = {
-			labels : ["June","July","August","September","October","November","December"],
+			labels : ["January","February","March","April","May","June","July"],
 			datasets : [
 				{
 					fillColor : "rgba(220,220,220,0.5)",

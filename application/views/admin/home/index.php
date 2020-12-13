@@ -46,7 +46,7 @@
 							<svg class="glyph stroked male-user"><use xlink:href="#stroked-male-user"></use></svg>
 						</div>
 						<div class="col-sm-9 col-lg-7 widget-right">
-							<div class="large">24</div>
+							<div class="large">67</div>
 							<div class="text-muted">Khách hàng mới</div>
 						</div>
 					</div>
@@ -59,7 +59,16 @@
 							<svg class="glyph stroked app-window-with-content"><use xlink:href="#stroked-app-window-with-content"></use></svg>
 						</div>
 						<div class="col-sm-9 col-lg-7 widget-right">
-							<div class="large">25.2k</div>
+							<div class="large">
+							<?php 
+								$CountFile = "index.log";
+								$CF = fopen ($CountFile, "r");
+								$Views = fread ($CF, filesize ($CountFile));
+								fclose ($CF);
+								echo ($Views);
+							?>
+							<!--</?php echo $this->renderElement('count_user_online');?> -->
+							</div>
 							<div class="text-muted">Page Views</div>
 						</div>
 					</div>

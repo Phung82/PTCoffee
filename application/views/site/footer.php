@@ -46,9 +46,9 @@
 					</address>
 				</div>
 				<div class="col-xs-12 col-sm-4 col-md-4 col-lg-4 text-right">
-					<a href="#"><img src="<?php echo base_url(); ?>upload/icon/facebook.png" alt=""></a>
-					<a href="#"><img src="<?php echo base_url(); ?>upload/icon/twitter.png" alt=""></a>
-					<a href="#"><img src="<?php echo base_url(); ?>upload/icon/google.png" alt=""></a>
+					<a href="https://www.facebook.com/" target="_blank"><img src="<?php echo base_url(); ?>upload/icon/facebook.png" alt=""></a>
+					<a href="https://twitter.com/" target="_blank"><img src="<?php echo base_url(); ?>upload/icon/twitter.png" alt=""></a>
+					<a href="https://accounts.google.com/signin/v2/identifier?hl=vi&passive=true&continue=https%3A%2F%2Fwww.google.com%2Fsearch%3Fq%3Dgoogle%26oq%3Dgoogle%26aqs%3Dchrome..69i57.2591j0j4%26sourceid%3Dchrome%26ie%3DUTF-8&ec=GAZAAQ&flowName=GlifWebSignIn&flowEntry=ServiceLogin" target="_blank"><img src="<?php echo base_url(); ?>upload/icon/google.png" alt=""></a>
 				</div>
 				<div class="clearfix"></div>
 			</div>

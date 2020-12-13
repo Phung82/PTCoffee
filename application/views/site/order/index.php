@@ -37,7 +37,7 @@
 					  	</tr>
 					  	<tr>
 					  		<td>Lời nhắn</td>
-					  		<td><textarea name="message" id="" cols="50" rows="4"></textarea><?php echo form_error('message'); ?></td>
+					  		<td><textarea name="message" id="" cols="50" rows="4">Ghi chú</textarea><?php echo form_error('message'); ?></td>
 					   	</tr>
 					   	<tr>
 					   		<td ></td>

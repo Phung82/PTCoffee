@@ -324,4 +324,6 @@
         <path d="M1 35V3c0-1.1.9-2 2-2h38c1.1 0 2 .9 2 2v32c0 1.1-.9 2-2 2H3c-1.1 0-2-.9-2-2zM43 9H1M4 5h2M7 5h2M10 5h2M20 24h20M20 28h20M20 32h20" stroke-linejoin="round"></path>
         <path d="M5 13h34.008v7H5zM5 24h12v8H5z"></path>
     </g>
+
+
 </symbol></defs></svg>

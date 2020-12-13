@@ -20,3 +20,4 @@
       });
      </script>
      <style>.raty img{width:16px !important;height:16px; !important;}</style>
+<?php

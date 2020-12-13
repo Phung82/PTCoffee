@@ -46,6 +46,7 @@
 										</tr>
 										<tr>
 											<td colspan="6"><a href="<?php echo base_url('order'); ?>" class="btn btn-success">Đặt mua</a></td>
+											<td colspan="6"><a href="<?php echo base_url('product/hot'); ?>" class="btn btn-success">Chọn thêm</a></td>
 										</tr>
 									</tbody>
 								</table>
@@ -61,7 +62,7 @@
 							  	<div class="text-center">
 							  		<img src="<?php echo base_url('upload/cart-empty.png') ?>" alt="">
 								  	<h4 style="color:red">Không có đồ uống trong giỏ hàng</h4>
-								 	<a href="<?php echo base_url('product/hot'); ?>" class="btn btn-success">Mua sắm</a>
+								 	<a href="<?php echo base_url('product/hot'); ?>" class="btn btn-success">Tiếp tục chọn</a>
 							 	</div>
 							  	
 							  </div>

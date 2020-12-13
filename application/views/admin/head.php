@@ -9,6 +9,26 @@
 <script src="<?php echo public_url(); ?>js/jquery-3.1.1.js" type="text/javascript"></script>
 <script src="<?php echo public_url(); ?>js/jquery.js" type="text/javascript"></script>
 
+
+<script type="text/javascript">
+$(function () {  
+	$("#datepicker").datepicker({         
+	autoclose: true,         
+	todayHighlight: true 
+	}).datepicker('update', new Date());
+	});
+</script>
+
+<script type="text/javascript">
+$(function () {  
+	$("#datepicker2").datepicker({         
+	autoclose: true,         
+	todayHighlight: true 
+	}).datepicker('update', new Date());
+	});
+</script>
+<link rel="stylesheet prefetch" href="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/css/datepicker.css"><script src="http://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.3.0/js/bootstrap-datepicker.js"></script>
+
 <!--Icons-->
 <script src="<?php echo public_url('admin/'); ?>js/lumino.glyphs.js"></script>
 <script src="<?php echo public_url(); ?>js/ckeditor/ckeditor.js"></script>

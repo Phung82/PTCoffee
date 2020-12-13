@@ -32,6 +32,8 @@ class Login extends MY_Controller {
 		}
 		$this->load->view('admin/login/index.php');
 	}
+	
+	
 	public function check_login()
 	{
 		$user = $this->get_info_login();
@@ -41,6 +43,8 @@ class Login extends MY_Controller {
 		$this->form_validation->set_message(__FUNCTION__,'Đăng nhập thất bại');
 		return false;
 	}
+
+
 	function get_info_login()
 	{
 		$email = $this->input->post("email");
@@ -50,4 +54,6 @@ class Login extends MY_Controller {
 		$user = $this->admin_model->get_info_rule($where);
 		return $user;
 	}
+	 
+	
 }
